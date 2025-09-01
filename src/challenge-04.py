@@ -1,0 +1,8 @@
+str1 = input("Type something: ")
+print(f"The primitive data type of this value is {type(str1)}")
+print(f"Is there space here? {str1.isspace()}")
+print(f"Is that numeric? {str1.isnumeric()}")
+print(f"Is it an alphabetic string? {str1.isalpha()}")
+print(f"Is it an alphanumeric? {str1.isalnum()}")
+print(f"Is it uppercase? {str1.isupper()}")
+print(f"Is it lowercase? {str1.islower()}")
